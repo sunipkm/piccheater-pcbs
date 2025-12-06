@@ -60,11 +60,23 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|225680447|109795000|4faa6540-0a08-4b00-8f2c-06c5bfd92833|7d4fd0bc-8e8a-4c2f-93bd-e2dfe0c1931b",
+          "Optional header"
+        ],
+        [
           "solder_mask_bridge|226799495|92660000|26aa742d-a8b9-4546-9254-679b96a8fde1|a570e71f-8de4-4d6d-b5d9-a2d71ac219eb",
           ""
         ],
         [
           "solder_mask_bridge|226799495|92660000|811d6ae9-ec48-42b4-8bab-62afd03dbd27|c9182795-136b-4d11-bf20-d19057134570",
+          ""
+        ],
+        [
+          "solder_mask_bridge|227499495|89060000|377c6545-18b3-4d10-b2a6-c6a7f3c8188e|c502dbf3-d204-4b05-9f17-e9c6a8e34a63",
+          ""
+        ],
+        [
+          "solder_mask_bridge|227499495|89060000|eaff0b57-9243-47ee-a20e-6ed5b55ac915|15003f5f-454d-4d61-bc4b-2c3366e088d9",
           ""
         ],
         [

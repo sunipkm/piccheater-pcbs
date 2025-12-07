@@ -1073,7 +1073,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "project_symbols:OPA547F"
+		(symbol "project_symbols:OPA548"
 			(pin_names
 				(offset 0.127)
 			)
@@ -1089,7 +1089,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA547F"
+			(property "Value" "OPA548"
 				(at -5.588 -0.254 0)
 				(do_not_autoplace)
 				(effects
@@ -1198,7 +1198,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA547F_0_1"
+			(symbol "OPA548_0_1"
 				(pin power_in line
 					(at -2.54 10.16 270)
 					(length 3.937)
@@ -1236,7 +1236,7 @@
 					)
 				)
 			)
-			(symbol "OPA547F_1_0"
+			(symbol "OPA548_1_0"
 				(pin power_in line
 					(at 2.54 6.35 270)
 					(length 2.921)
@@ -1274,7 +1274,7 @@
 					)
 				)
 			)
-			(symbol "OPA547F_1_1"
+			(symbol "OPA548_1_1"
 				(polyline
 					(pts
 						(xy -7.62 8.89) (xy -7.62 -8.89) (xy 8.89 0) (xy -7.62 8.89)
@@ -1448,6 +1448,12 @@
 		(uuid "7fd4e335-6e03-4f17-81ef-af64121519a3")
 	)
 	(junction
+		(at 99.06 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e4c0414-d114-46e5-9748-5db5c4e31d50")
+	)
+	(junction
 		(at 215.9 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1458,6 +1464,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f33cad7-0744-4275-b271-0a1f30310f46")
+	)
+	(junction
+		(at 139.7 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6e6c043-fe63-4e0d-ae7a-ef887c023d6a")
 	)
 	(junction
 		(at 113.03 72.39)
@@ -1729,6 +1741,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 153.67) (xy 99.06 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441788e9-13e1-4718-a892-c20cb0fa5c33")
+	)
+	(wire
+		(pts
 			(xy 99.06 146.05) (xy 115.57 146.05)
 		)
 		(stroke
@@ -1889,6 +1911,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 153.67) (xy 139.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765d25f4-f8eb-466f-906d-dac18f88e7fb")
+	)
+	(wire
+		(pts
 			(xy 147.32 138.43) (xy 147.32 146.05)
 		)
 		(stroke
@@ -1999,6 +2031,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 153.67) (xy 99.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e05dae-e9d3-4b71-94c2-513e815a4197")
+	)
+	(wire
+		(pts
 			(xy 185.42 97.79) (xy 185.42 120.65)
 		)
 		(stroke
@@ -2006,6 +2048,16 @@
 			(type default)
 		)
 		(uuid "af399e9e-1378-4a29-8b12-907f1d6895fd")
+	)
+	(wire
+		(pts
+			(xy 123.19 153.67) (xy 139.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af957151-2d31-4424-858f-53970a6a9f3d")
 	)
 	(wire
 		(pts
@@ -2957,7 +3009,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Open"
+		(property "Value" "NC"
 			(at 199.39 63.5 0)
 			(effects
 				(font
@@ -3028,7 +3080,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Open"
+		(property "Value" "L / NC / R"
 			(at 220.98 38.1 0)
 			(effects
 				(font
@@ -3506,7 +3558,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Open"
+		(property "Value" "L / NC / R"
 			(at 199.39 38.1 0)
 			(effects
 				(font
@@ -3751,7 +3803,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Open"
+		(property "Value" "NC"
 			(at 220.98 63.5 0)
 			(effects
 				(font
@@ -3906,6 +3958,148 @@
 			(project "picc-heater"
 				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project_symbols:OPA548")
+		(at 115.57 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b84296-b68b-4abd-8010-816e96f8a5e7")
+		(property "Reference" "U1"
+			(at 127 109.1498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA548"
+			(at 109.982 113.284 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_footprints:KTW0007A"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa548.pdf"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-voltage, high-current, wide-output-voltage-swing power operational amplifier"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "OPA548F/500"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey #" "296-26290-1-ND"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "595-OPA548F/500"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/opa548f-500/301311"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Texas-Instruments/OPA548F-500?qs=wgAEGBTxy7mnc4CybVEauw%3D%3D"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "3e7a6c3d-6054-4b29-a220-8419811d1517")
+		)
+		(pin "4"
+			(uuid "1a6c16f7-b696-4ce3-b4b0-6449a53f83b8")
+		)
+		(pin "6"
+			(uuid "7c984829-4449-47c9-a654-357858d9e91a")
+		)
+		(pin "7"
+			(uuid "d6f5401e-0cc7-420a-9006-cb386e032183")
+		)
+		(pin "2"
+			(uuid "da8b8fcd-b0a3-4ae4-9775-532a38a1078e")
+		)
+		(pin "1"
+			(uuid "677d2101-2d7c-405f-90ac-e591edb16536")
+		)
+		(pin "3"
+			(uuid "dd89b32c-beff-4300-9fbc-5f17ee3ecf6e")
+		)
+		(pin "5"
+			(uuid "193a2057-7296-4509-98fb-b96413d7a76d")
+		)
+		(instances
+			(project ""
+				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4118,148 +4312,6 @@
 			(project ""
 				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "project_symbols:OPA547F")
-		(at 115.57 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b930fba5-0ea4-4601-baaf-0e8fa66b8079")
-		(property "Reference" "U1"
-			(at 127 109.1498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA547F"
-			(at 109.982 113.284 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "project_footprints:KTW0007A"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa548.pdf"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-voltage, high-current, wide-output-voltage-swing power operational amplifier"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Texas Instruments"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "OPA548F/500"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey #" "296-26290-1-ND"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser #" "595-OPA548F/500"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/opa548f-500/301311"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Texas-Instruments/OPA548F-500?qs=wgAEGBTxy7mnc4CybVEauw%3D%3D"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ae49df9d-c22f-485d-a193-430d35b8ec10")
-		)
-		(pin "1"
-			(uuid "f3f509c1-7ac6-4805-b042-05a47944d3d8")
-		)
-		(pin "2"
-			(uuid "3f224ad9-3486-460a-8dcc-f83e75d4ec77")
-		)
-		(pin "4"
-			(uuid "5f20de65-23e7-4ab9-b758-66e7de4be029")
-		)
-		(pin "5"
-			(uuid "5767855a-abff-42d6-ab08-e64c60b06831")
-		)
-		(pin "6"
-			(uuid "655e7d99-cd5d-462f-b066-62071c138039")
-		)
-		(pin "7"
-			(uuid "5894ea1c-7e21-44c8-af91-6d208e6200bb")
-		)
-		(pin "8"
-			(uuid "014e15da-dd8d-46cf-acc0-85cce398d1ce")
-		)
-		(instances
-			(project ""
-				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4627,6 +4679,109 @@
 			(project ""
 				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e8ff976c-f11e-43b1-850c-85dab4269b94")
+		(property "Reference" "C6"
+			(at 119.38 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01u"
+			(at 119.38 157.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 115.57 154.6352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAM.pdf"
+			(at 119.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 10 000pF X8R 080 5 10% AEC-Q200"
+			(at 119.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "KYOCERA AVX"
+			(at 119.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "KAM21BR81H103KT"
+			(at 119.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" "581-KAM21BR81H103KT "
+			(at 119.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KAM21BR81H103KT?qs=sGAEpiMZZMvsSlwiRhF8qrQG6leidpLjd2yh5HiSHZNsgkhmB7%252B%252BaA%3D%3D"
+			(at 119.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef65c468-2bf0-41f5-bb4b-6940b67b689e")
+		)
+		(pin "1"
+			(uuid "8767d417-8303-41dd-bb44-5d3dfebbfa9a")
+		)
+		(instances
+			(project "amplifier-brd"
+				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
+					(reference "C6")
 					(unit 1)
 				)
 			)

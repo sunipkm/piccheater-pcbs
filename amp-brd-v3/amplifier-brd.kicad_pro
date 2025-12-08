@@ -238,10 +238,6 @@
         [
           "starved_thermal|226674495|99605000|ef1e89bb-f3cf-464c-a077-67f3d1effa8f|71f28f7c-040a-46ce-8924-505cd7afc5e3|F.Cu",
           ""
-        ],
-        [
-          "starved_thermal|231099495|101685000|ef1e89bb-f3cf-464c-a077-67f3d1effa8f|15bc0463-4bf5-4538-adb6-70949a2d9b0b|F.Cu",
-          ""
         ]
       ],
       "meta": {

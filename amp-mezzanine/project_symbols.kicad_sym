@@ -665,6 +665,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 0 -13.97 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 0 -16.51 0)
 				(length 2.54)
@@ -882,25 +900,6 @@
 					)
 				)
 				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -29.21 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
 					(effects
 						(font
 							(size 1.27 1.27)

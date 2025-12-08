@@ -5508,7 +5508,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "13k"
 			(at 2.6725 0 0)
 			(layer "F.Fab")
 			(uuid "15bd0510-91f6-411c-b3a9-185103a6d5c2")
@@ -5519,7 +5519,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/ASC_WFxxP.pdf"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1623112&DocType=Customer+Drawing&DocLang=English&PartCntxt=1623112-1"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5531,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Description" "Thin Film Resistors 10K Ohms 250mW +/- 1% 0805"
+		(property "Description" "Thick Film Resistors CRG0805 1% 13K"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5543,7 +5543,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Walsin"
+		(property "Mfr" "TE Connectivity / Holsworthy "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5556,7 +5556,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "WF08P1002FTL"
+		(property "Mfr #" "CRG0805F13K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5569,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Mouser #" "791-WF08P1002FTL"
+		(property "Mouser #" "279-CRG0805F13K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5582,7 +5582,7 @@
 				)
 			)
 		)
-		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Walsin/WF08P1002FTL?qs=sGAEpiMZZMvdGkrng054t7z4BkURc4LzCx%252B5OuE3qppREPl7ULZTTA%3D%3D"
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/CRG0805F13K?qs=sGAEpiMZZMvdGkrng054t%252BGQy31YLTNMxyRamAR5vSg%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9381,7 +9381,7 @@
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "0f0c4075-338e-4703-a595-aacee87a5acd")
+			(uuid "a758ed48-18ba-41a8-8f2c-e0dfdb40ebe4")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/10132798-042100LF.STEP"

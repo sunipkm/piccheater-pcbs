@@ -594,16 +594,34 @@
 				)
 			)
 			(pin input line
-				(at 0 -3.81 0)
+				(at 0 -1.27 0)
 				(length 2.54)
-				(name "CTRL_D"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "33"
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -3.81 0)
+				(length 2.54)
+				(name "CTRL_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -613,24 +631,6 @@
 			)
 			(pin input line
 				(at 0 -6.35 0)
-				(length 2.54)
-				(name "CTRL_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -8.89 0)
 				(length 2.54)
 				(name "CTRL_B"
 					(effects
@@ -648,16 +648,34 @@
 				)
 			)
 			(pin input line
-				(at 0 -11.43 0)
+				(at 0 -8.89 0)
 				(length 2.54)
-				(name "CTRL_A"
+				(name "CTRL_C"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "36"
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -11.43 0)
+				(length 2.54)
+				(name "CTRL_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -900,25 +918,6 @@
 						)
 					)
 				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -29.21 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "39"
 					(effects
 						(font
@@ -985,14 +984,14 @@
 			(pin bidirectional line
 				(at 25.4 -11.43 180)
 				(length 2.54)
-				(name "STAT_D"
+				(name "STAT_A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1002,24 +1001,6 @@
 			)
 			(pin bidirectional line
 				(at 25.4 -13.97 180)
-				(length 2.54)
-				(name "STAT_C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 25.4 -16.51 180)
 				(length 2.54)
 				(name "STAT_B"
 					(effects
@@ -1037,16 +1018,34 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -19.05 180)
+				(at 25.4 -16.51 180)
 				(length 2.54)
-				(name "STAT_A"
+				(name "STAT_C"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "26"
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -19.05 180)
+				(length 2.54)
+				(name "STAT_D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)

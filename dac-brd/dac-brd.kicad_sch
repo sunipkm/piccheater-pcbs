@@ -3204,7 +3204,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Reference_Voltage:REF5030ID"
+		(symbol "Reference_Voltage:REF5020ID"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3220,7 +3220,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "REF5030ID"
+			(property "Value" "REF5020ID"
 				(at -1.27 6.35 0)
 				(effects
 					(font
@@ -3250,7 +3250,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8"
+			(property "Description" "2.048V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3259,7 +3259,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Low Noise Precision Voltage Reference 3V"
+			(property "ki_keywords" "Low Noise Precision Voltage Reference 2.048V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3277,7 +3277,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "REF5030ID_0_1"
+			(symbol "REF5020ID_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -3290,7 +3290,7 @@
 					)
 				)
 			)
-			(symbol "REF5030ID_1_1"
+			(symbol "REF5020ID_1_1"
 				(pin passive line
 					(at -10.16 0 0)
 					(length 2.54)
@@ -4967,7 +4967,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 110.49) (xy 248.92 110.49)
+			(xy 241.3 110.49) (xy 248.92 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5895,8 +5895,8 @@
 		)
 		(uuid "2a4005b2-0f7c-4cde-974e-e961768a71b8")
 	)
-	(label "LED_PWM"
-		(at 238.76 110.49 0)
+	(label "EN"
+		(at 241.3 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6125,7 +6125,7 @@
 		)
 		(uuid "a9497ef0-055f-4ae5-8504-fac8ee65eb9c")
 	)
-	(label "LED_PWM"
+	(label "EN"
 		(at 104.14 85.09 180)
 		(effects
 			(font
@@ -7256,97 +7256,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:REF5030ID")
-		(at 172.72 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "666d6448-5927-44fc-8254-8a0d3dbffd1e")
-		(property "Reference" "U1"
-			(at 172.3233 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "REF5030ID"
-			(at 172.3233 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 170.815 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref50.pdf"
-			(at 171.45 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8"
-			(at 172.72 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5b3c1ade-145c-4333-940f-75a156227938")
-		)
-		(pin "1"
-			(uuid "ed16ba3e-b872-4423-89cb-c0c70c2d7cd2")
-		)
-		(pin "7"
-			(uuid "1f6893f0-f176-405d-9ab0-7a02c4e7cd5e")
-		)
-		(pin "2"
-			(uuid "ab366201-ea30-4f3e-99eb-6c86d5db2e52")
-		)
-		(pin "4"
-			(uuid "4bc336c2-6cf8-4390-9aa6-b82500ce4c64")
-		)
-		(pin "8"
-			(uuid "8c89d6a9-731a-47e5-8dc6-83eddf93f2dd")
-		)
-		(pin "6"
-			(uuid "6ff99fdf-8f6a-413b-94f8-0d2521b9ee69")
-		)
-		(pin "3"
-			(uuid "6321031a-cff7-49c6-aafa-1a7c6757b0e2")
-		)
-		(instances
-			(project ""
-				(path "/42f52ef8-91b5-4b39-8096-c8af77b54354"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 152.4 104.14 0)
 		(unit 1)
@@ -7547,6 +7456,97 @@
 			(project ""
 				(path "/42f52ef8-91b5-4b39-8096-c8af77b54354"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:REF5020ID")
+		(at 172.72 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75aad4c0-01c6-47a5-a50f-eab9cd1b45c2")
+		(property "Reference" "U1"
+			(at 172.3233 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "REF5020ID"
+			(at 172.3233 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 170.815 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref50.pdf"
+			(at 171.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.048V 0.05% 10mA Low Noise Precision Voltage Reference, SO-8"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5c2f8b03-5425-475d-b147-21c5d2a5a951")
+		)
+		(pin "1"
+			(uuid "4e809f49-1bf9-4ad0-8050-17ebe3f20e46")
+		)
+		(pin "7"
+			(uuid "851c765b-bcfc-4719-a806-9758b5a3840e")
+		)
+		(pin "2"
+			(uuid "4cc84cb7-137b-4580-836c-95fa93bb3f43")
+		)
+		(pin "4"
+			(uuid "3f495dfa-e9c0-4a93-b49f-646e59570762")
+		)
+		(pin "8"
+			(uuid "9689f70e-3af1-49e4-956c-60820c082016")
+		)
+		(pin "6"
+			(uuid "1826862c-73c6-44db-9331-4b490ba996ef")
+		)
+		(pin "5"
+			(uuid "76c952b4-eaf7-4f21-a4d3-0fc2a7eac7b6")
+		)
+		(instances
+			(project ""
+				(path "/42f52ef8-91b5-4b39-8096-c8af77b54354"
+					(reference "U1")
 					(unit 1)
 				)
 			)

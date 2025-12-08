@@ -60,27 +60,23 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|133000000|127900000|5a321412-58d9-4784-9398-ec3a6f3baf8e|9972792e-20ab-4af0-878c-c4fc17d65b2c",
+          "copper_edge_clearance|133000000|127900000|5a321412-58d9-4784-9398-ec3a6f3baf8e|f66a0442-0b11-4577-ae8c-ba8cc08c88ad",
           ""
         ],
         [
-          "copper_edge_clearance|133000000|81100000|5a321412-58d9-4784-9398-ec3a6f3baf8e|a5fd3899-050d-4890-b01d-e23fe82a6631",
+          "copper_edge_clearance|133000000|81100000|5a321412-58d9-4784-9398-ec3a6f3baf8e|e3d477d6-7903-4e5d-b0b9-08c7b8dce648",
           ""
         ],
         [
-          "copper_edge_clearance|175000000|131000000|5a321412-58d9-4784-9398-ec3a6f3baf8e|16d3c209-59ba-4709-ad2c-336acc8f0ff7",
+          "copper_edge_clearance|175000000|131000000|5a321412-58d9-4784-9398-ec3a6f3baf8e|5ba21fcd-0343-4f86-9365-6c922bd2c6ad",
           ""
         ],
         [
-          "copper_edge_clearance|175000000|78000000|5a321412-58d9-4784-9398-ec3a6f3baf8e|d285be52-5649-434f-8b6f-9da44ef93d67",
+          "copper_edge_clearance|175000000|78000000|5a321412-58d9-4784-9398-ec3a6f3baf8e|19a623d7-cf0a-4f30-8823-49da054c971c",
           ""
         ],
         [
           "lib_footprint_mismatch|150700000|93762500|19cc0fa9-a51b-4b3a-bfe5-c6fb537f79bc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|176599971|125841760|c154b9b2-b51c-407a-a582-b4986387ef00|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -479,6 +475,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"

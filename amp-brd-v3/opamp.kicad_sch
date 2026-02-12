@@ -1464,6 +1464,26 @@
 		)
 		(uuid "9fb0f359-556c-4763-ab09-51a25c7a14ea")
 	)
+	(text_box "V_{OUT} = -A V_{CTRL} + (1 + A) V_{FB}\nA = R1 / R2\n\nV_{FB} = 1 V\nV_{OUT,absmin} = 1 V\nV_{OUT,absmax} = 28V\n\nR1 = 100k\nR2 = 4.02k\nA = 24.8756\n\nV_{OUT,max} = 25.8756 V\nV_{IN,absmin} = V_{OUT,max} / 0.95 = 27.24 V\nV_{CTRL,min} = 0 ==> V_{OUT} = V_{OUT,max} = 25.8765 V\n\nR_{LOAD} = 20 Ohm\nV_{CTRL,max} = 1.0 V  ==> V_{OUT} = V_{OUT,absmin} = 1.0 V, P_{OUT,absmin} = 0.05 W\nV_{CTRL,max} = 0.96 V ==> V_{OUT} = 2 V, P_{OUT} = 0.2 W\n"
+		(exclude_from_sim no)
+		(at 13.97 13.97 0)
+		(size 151.13 86.36)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "898942b4-1e33-4b76-821c-87f20d31151a")
+	)
 	(junction
 		(at 185.42 87.63)
 		(diameter 0)

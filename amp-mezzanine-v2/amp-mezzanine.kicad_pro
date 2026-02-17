@@ -104,7 +104,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -633,7 +633,7 @@
     "BOARD_REV": "B0",
     "COMPANY": "LoCSST / UMass Lowell",
     "DESIGNER": "SKM",
-    "PRJ_TITLE": "PICTURE-C/D Heater Controller Mezzanine",
-    "REVIEWER": ""
+    "PRJ_TITLE": "PICTURE-C/D Heater Controller Mezzanine v2",
+    "REVIEWER": "JA"
   }
 }

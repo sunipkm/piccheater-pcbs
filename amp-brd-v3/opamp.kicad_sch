@@ -1515,6 +1515,18 @@
 		(uuid "37358c44-4d70-4634-87c8-f8ed9a449ac0")
 	)
 	(junction
+		(at 242.57 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45cc6f60-e782-41a5-bcd7-a2bdb977dd4d")
+	)
+	(junction
+		(at 245.11 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c99b9d2-acd8-48ae-a18b-1fbf87d71bdb")
+	)
+	(junction
 		(at 157.48 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1531,6 +1543,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b5327f0-b79b-4c02-b5c3-3d89af5c5397")
+	)
+	(junction
+		(at 242.57 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bbef28e-21bd-412f-8ead-59293d11dc7b")
 	)
 	(junction
 		(at 57.15 147.32)
@@ -1738,6 +1756,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 95.25) (xy 245.11 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158d5c68-d1dc-43ec-ae49-c43a754fb292")
+	)
+	(wire
+		(pts
 			(xy 97.79 135.89) (xy 100.33 135.89)
 		)
 		(stroke
@@ -1895,6 +1923,16 @@
 			(type default)
 		)
 		(uuid "44ff369f-f413-48f0-afe6-37d5d790247c")
+	)
+	(wire
+		(pts
+			(xy 245.11 109.22) (xy 250.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46429eef-bb89-4c51-a080-9124746c1b8f")
 	)
 	(wire
 		(pts
@@ -2118,6 +2156,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 81.28) (xy 245.11 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832ac893-1f26-4f51-ac83-6dd1997b28a2")
+	)
+	(wire
+		(pts
 			(xy 139.7 118.11) (xy 130.81 118.11)
 		)
 		(stroke
@@ -2155,6 +2203,26 @@
 			(type default)
 		)
 		(uuid "87c8e619-00d3-482b-91f0-6416fa30f246")
+	)
+	(wire
+		(pts
+			(xy 242.57 81.28) (xy 242.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884c0ff3-df8e-4e07-9d0e-2e9d631e3438")
+	)
+	(wire
+		(pts
+			(xy 245.11 81.28) (xy 245.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8fa3e2-8a1f-447a-a9bf-4d339c695874")
 	)
 	(wire
 		(pts
@@ -2205,6 +2273,26 @@
 			(type default)
 		)
 		(uuid "91ef6d91-ec5b-4236-9573-18828137f200")
+	)
+	(wire
+		(pts
+			(xy 242.57 106.68) (xy 250.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f40776-89ee-4d17-9524-d6ed950363ea")
+	)
+	(wire
+		(pts
+			(xy 242.57 95.25) (xy 242.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c23bd9-e9ff-4a2e-ae2c-4c0d39b52b21")
 	)
 	(wire
 		(pts
@@ -2478,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 109.22) (xy 250.19 109.22)
+			(xy 226.06 109.22) (xy 245.11 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 106.68) (xy 250.19 106.68)
+			(xy 226.06 106.68) (xy 242.57 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2635,6 +2723,16 @@
 			(type default)
 		)
 		(uuid "fdcd28a8-9159-40cf-9730-dfee526517bc")
+	)
+	(wire
+		(pts
+			(xy 237.49 81.28) (xy 242.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5c5f53-212a-4730-b2be-ebe1bd288670")
 	)
 	(label "FCTRL"
 		(at 102.87 135.89 0)
@@ -2902,6 +3000,17 @@
 			(justify right)
 		)
 		(uuid "ae8f50ce-c996-4489-8722-bc745023f027")
+	)
+	(hierarchical_label "V_{BUS}"
+		(shape input)
+		(at 237.49 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6f7dd6d-2612-4848-8aa5-f03bf8abafc0")
 	)
 	(hierarchical_label "~{DIS}{slash}THERM"
 		(shape bidirectional)
@@ -3337,6 +3446,75 @@
 			(project ""
 				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18007efa-4633-464e-9ae9-5e19c5f208b2")
+		(property "Reference" "R8"
+			(at 238.506 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 242.57 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 244.348 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7cef162a-365c-498b-b88f-708858fb3ab6")
+		)
+		(pin "1"
+			(uuid "b3ef7e0d-e269-40db-8b67-53528659deff")
+		)
+		(instances
+			(project "amplifier-brd"
+				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3822,6 +4000,75 @@
 			(project ""
 				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 245.11 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50be1a5d-3de0-4445-ab67-6624f443a836")
+		(property "Reference" "R9"
+			(at 246.634 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 245.11 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 246.888 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be9249ff-4cec-4ab9-a2ff-f44e81b6cfae")
+		)
+		(pin "1"
+			(uuid "79da839e-0c6c-41d2-b6db-040728b10ad8")
+		)
+		(instances
+			(project "amplifier-brd"
+				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
+					(reference "R9")
 					(unit 1)
 				)
 			)

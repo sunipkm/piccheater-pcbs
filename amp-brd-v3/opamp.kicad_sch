@@ -1464,7 +1464,7 @@
 		)
 		(uuid "9fb0f359-556c-4763-ab09-51a25c7a14ea")
 	)
-	(text_box "V_{OUT} = -A V_{CTRL} + (1 + A) V_{FB}\nA = R1 / R2\n\nV_{FB} = 1 V\nV_{OUT,absmin} = 1 V\nV_{OUT,absmax} = 28V\n\nR1 = 100k\nR2 = 4.02k\nA = 24.8756\n\nV_{OUT,max} = 25.8756 V\nV_{IN,absmin} = V_{OUT,max} / 0.95 = 27.24 V\nV_{CTRL,min} = 0 ==> V_{OUT} = V_{OUT,max} = 25.8765 V\n\nR_{LOAD} = 20 Ohm\nV_{CTRL,max} = 1.0 V  ==> V_{OUT} = V_{OUT,absmin} = 1.0 V, P_{OUT,absmin} = 0.05 W\nV_{CTRL,max} = 0.96 V ==> V_{OUT} = 2 V, P_{OUT} = 0.2 W\n"
+	(text_box "V_{OUT} = -A V_{CTRL} + (1 + A) V_{FB}\nA = R1 / R2\n\nV_{FB} = 1 V\nV_{OUT,absmin} = 1 V\nV_{OUT,absmax} = 28V\n\nR1 = 100k\nR2 = 4.02k\nA = 24.8756\n\nV_{OUT,max} = 25.8756 V\nV_{IN,absmin} = V_{OUT,max} / 0.95 = 27.24 V\nV_{CTRL,min} = 0 ==> V_{OUT} = V_{OUT,max} = 25.8765 V\n\nR_{LOAD} = 20 Ohm\nV_{CTRL,max} = 1.0 V  ==> V_{OUT} = V_{OUT,absmin} = 1.0 V, P_{OUT,absmin} = 0.05 W\nV_{CTRL,max} = 0.96 V ==> V_{OUT} = 2 V, P_{OUT} = 0.2 W\n\nCTRL_{IN} = High-Z => V_{FB} = 1V = V_{OUT} * 104k / 204k => V_{OUT} = 204 V / 104 ~ 1.96 V\n"
 		(exclude_from_sim no)
 		(at 13.97 13.97 0)
 		(size 151.13 86.36)
@@ -3945,18 +3945,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c2a6ae7-0971-43b2-b4a1-61fb08a1cb97")
 		(property "Reference" "R3"
-			(at 115.57 138.43 90)
+			(at 120.904 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 115.57 140.97 90)
+		(property "Value" "100k"
+			(at 115.57 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|143600000|129910000|205859d0-a761-4367-bf81-60a8a68ced88|c3b38846-7244-4c0d-aa88-eed62f3f25e1",
+          "silk_edge_clearance|143600000|129910000|205859d0-a761-4367-bf81-60a8a68ced88|dd35a9f7-393e-42d4-81e0-de1fcd445b7a",
           ""
         ],
         [
-          "silk_edge_clearance|157600000|129910000|e43eea9b-de02-46cf-8e6d-f370c8cfb31b|10e50a86-e14d-43b4-b281-ebb9c225904b",
+          "silk_edge_clearance|157600000|129910000|e43eea9b-de02-46cf-8e6d-f370c8cfb31b|49a14362-6510-4009-bade-ef448327c45d",
           ""
         ]
       ],
@@ -513,7 +513,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "dac-brd.step",
       "svg": "",
       "vrml": ""
     },

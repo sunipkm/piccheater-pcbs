@@ -14,14 +14,14 @@
 			)
 		)
 	)
-	(property "Value" "PICCDAC-AMPHENOL-10132797-045100LF"
-		(at 9.36 3.81 0)
+	(property "Value" "AMPHENOL-10132797-045100LF"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "ddbe4dbd-89c2-4e69-b49f-c4abe97da6db")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.04)
 			)
 		)
 	)

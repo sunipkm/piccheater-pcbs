@@ -5007,7 +5007,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 1/10 Watt 100Kohms 1%"
+			(at 255.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Vishay-Dale"
+			(at 255.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "CRCW0402100KFKED"
+			(at 255.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 255.27 29.21 0)
 			(effects
 				(font
@@ -5136,6 +5163,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SMD"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1fa6f01-6256-4b28-81de-5e6fda9cefc9")
 		)
@@ -5202,7 +5238,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Surface Mount 2 position 0.049\" (1.25mm)"
+			(at 16.51 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 16.51 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0533980271"
+			(at 16.51 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 16.51 17.78 0)
 			(effects
 				(font
@@ -5699,73 +5762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 73.66 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c74e7a1-2914-4e7e-bcdd-5b58eb2c3099")
-		(property "Reference" "R2"
-			(at 73.66 35.306 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 73.66 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 73.66 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57a697d3-659b-420d-afae-6b6a22846253")
-		)
-		(pin "1"
-			(uuid "63829813-c5a9-42ab-8c49-d7118ddab1ff")
-		)
-		(instances
-			(project "amp-mezzanine"
-				(path "/8c7ea4fc-2c79-4942-bcea-c104e68fed52"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Vdrive")
 		(at 96.52 99.06 0)
 		(unit 1)
@@ -5946,7 +5942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "White LEDs 0402 SMD WHITE 5mA 2.4V 66mW"
 			(at 267.97 62.23 0)
 			(effects
 				(font
@@ -5957,6 +5953,33 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 267.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 267.97 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "598-2A00-107F "
+			(at 267.97 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Dialight "
+			(at 267.97 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +6048,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 16V X7S 4.7uF 10%"
+			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "TAIYO YUDEN"
+			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "MBASE21GBC7475KTCA01"
 			(at 137.16 124.46 0)
 			(effects
 				(font
@@ -6226,7 +6276,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Surface Mount, Right Angle 10 position 0.049\" (1.25mm)"
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0532611071"
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 97.79 34.29 0)
 			(effects
 				(font
@@ -6387,7 +6464,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1-Wire Digital Thermometer with Sequence Detect and PIO"
+		(property "Description" "Temperature Sensor Digital, Local -40°C ~ 85°C 11 b 8-uMAX/uSOP"
+			(at 226.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Analog Devices Inc./Maxim Integrated"
+			(at 226.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "DS28EA00U+"
+			(at 226.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 226.06 31.75 0)
 			(effects
 				(font
@@ -6485,7 +6589,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1249750-38e4-4642-abb0-838b61bfdc95")
+			(uuid "d1249750-38e4-4642-abb0-838b61bfdc96")
 		)
 		(instances
 			(project ""
@@ -6634,78 +6738,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 16.51 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93eca799-efab-42b0-9eb2-9a8151b66bf1")
-		(property "Reference" "J4"
-			(at 16.256 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ONEWIRE"
-			(at 16.51 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical"
-			(at 16.51 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 16.51 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 16.51 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3b7ab8a-7b7f-4182-85d8-a3ed95bb2a45")
-		)
-		(pin "MP"
-			(uuid "d735fbb5-523d-40a4-b283-9b5fbfc7e19f")
-		)
-		(pin "1"
-			(uuid "6a1e3835-f7c4-4b35-b856-e6a447e145e7")
-		)
-		(instances
-			(project "amp-mezzanine"
-				(path "/8c7ea4fc-2c79-4942-bcea-c104e68fed52"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 96.52 124.46 0)
 		(unit 1)
@@ -6751,7 +6783,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF 50V X7S AEC-Q2 0805"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Samsung Electro-Mechanics "
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "CL21Y225KBYVPNE "
 			(at 96.52 124.46 0)
 			(effects
 				(font
@@ -6770,6 +6829,105 @@
 			(project ""
 				(path "/8c7ea4fc-2c79-4942-bcea-c104e68fed52"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
+		(at 16.51 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d9ef5b3-0dfc-4e2b-bcaa-21bee2026a4c")
+		(property "Reference" "J4"
+			(at 16.51 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ONEWIRE"
+			(at 16.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical"
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 2 position 0.049\" (1.25mm)"
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0533980271"
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6119fd6-a3d5-430b-8801-36221e23f704")
+		)
+		(pin "MP"
+			(uuid "d383ece3-673a-465f-b877-c36e9682fae7")
+		)
+		(pin "1"
+			(uuid "02cb0c86-2853-49f8-85c6-595b11d83811")
+		)
+		(instances
+			(project "amp-mezzanine"
+				(path "/8c7ea4fc-2c79-4942-bcea-c104e68fed52"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6831,7 +6989,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1249750-38e4-4642-abb0-838b61bfdc95")
+			(uuid "d1249750-38e4-4642-abb0-838b61bfdc97")
 		)
 		(instances
 			(project ""
@@ -6951,8 +7109,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors 0805 10Kohms 0.5% AEC-Q200"
 			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 73.66 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Panasonic "
+			(at 73.66 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "ERJ-6RBD1002V "
+			(at 73.66 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,7 +7196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstak_05mm_mezzanine.pdf"
 			(at 243.84 97.79 0)
 			(effects
 				(font
@@ -7020,7 +7205,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40 Position Connector Plug, Outer Shroud Contacts Surface Mount Gold"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Amphenol ICC (FCI)"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "10132797-045100LF"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 243.84 97.79 0)
 			(effects
 				(font
@@ -7405,7 +7617,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin Film Resistors HP PrecisionResistor 1E 0.1W 1K0"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "TE Connectivity / Holsworthy "
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "RP73PF1E1K0BTD "
 			(at 267.97 49.53 0)
 			(effects
 				(font
@@ -7485,12 +7724,106 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1249750-38e4-4642-abb0-838b61bfdc95")
+			(uuid "d1249750-38e4-4642-abb0-838b61bfdc98")
 		)
 		(instances
 			(project ""
 				(path "/8c7ea4fc-2c79-4942-bcea-c104e68fed52"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce2e68a6-c2e1-4ee6-a3fb-11214da139d7")
+		(property "Reference" "R2"
+			(at 73.66 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 73.66 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 73.66 34.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors 0805 10Kohms 0.5% AEC-Q200"
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 73.66 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Panasonic "
+			(at 73.66 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "ERJ-6RBD1002V "
+			(at 73.66 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6898c0c7-fdaf-43a4-abc1-f0cffc610c05")
+		)
+		(pin "1"
+			(uuid "67050364-917e-4f39-a031-0054cd8ac382")
+		)
+		(instances
+			(project "amp-mezzanine"
+				(path "/8c7ea4fc-2c79-4942-bcea-c104e68fed52"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7738,7 +8071,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Surface Mount 10 position 0.049\" (1.25mm)"
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0533981071"
+			(at 49.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 49.53 35.56 0)
 			(effects
 				(font
@@ -7905,6 +8265,33 @@
 			)
 		)
 		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 265.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "onsemi"
+			(at 265.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "BSS84"
+			(at 265.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23"
 			(at 265.43 34.29 0)
 			(effects
 				(font

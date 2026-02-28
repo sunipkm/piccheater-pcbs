@@ -3107,6 +3107,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0402"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "97ccfb74-b9ca-4346-abfa-bffc7ccd688f")
 		)
@@ -3117,6 +3126,102 @@
 			(project ""
 				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 245.11 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01cf8c95-70e7-4322-9a05-b7f32b00e0c4")
+		(property "Reference" "R9"
+			(at 246.634 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 245.11 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 246.888 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors HP PrecisionResistor 1E 0.1W 10K"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "RP73PF1E10KBTD "
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "TE Connectivity / Holsworthy "
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46c34b83-53cf-48d9-9d20-5516cc0d01a3")
+		)
+		(pin "1"
+			(uuid "6665c30a-3f30-4a1a-b7be-bfc7b7288a0f")
+		)
+		(instances
+			(project "amplifier-brd"
+				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3167,6 +3272,33 @@
 			)
 		)
 		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=4.2-65V, Iout=1A, F=400kHz, Adjustable output voltage, HSOP-8"
+			(at 73.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 73.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 73.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "LMR36510ADDAR "
 			(at 73.66 120.65 0)
 			(effects
 				(font
@@ -3333,6 +3465,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0402"
+			(at 102.87 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5e3b3f3-a8bd-4756-8b62-2b2f110403ea")
 		)
@@ -3436,6 +3577,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0805"
+			(at 163.83 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8c474def-692b-4215-bad7-014bfe0d88ca")
 		)
@@ -3496,7 +3646,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin Film Resistors HP PrecisionResistor 1E 0.1W 10K"
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "RP73PF1E10KBTD "
+			(at 242.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "TE Connectivity / Holsworthy "
 			(at 242.57 91.44 0)
 			(effects
 				(font
@@ -3592,6 +3769,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0805"
+			(at 34.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd6f8487-e604-4585-908a-c122853013ca")
 		)
@@ -3602,6 +3788,100 @@
 			(project ""
 				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c174954-d8b9-4c6a-a03d-4ae1f1e41c28")
+		(property "Reference" "R3"
+			(at 121.412 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 115.57 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 115.57 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/10 Watt 100Kohms 1%"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Vishay-Dale"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "CRCW0402100KFKED"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c435d2c2-e462-4cad-8e76-59a45f4df91e")
+		)
+		(pin "1"
+			(uuid "fa6b1933-6163-4720-aec0-a2cb2ead2ffa")
+		)
+		(instances
+			(project "amplifier-brd"
+				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3763,6 +4043,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SMD"
+			(at 104.14 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1dcd1a5a-eb35-47b7-a5dd-1bb6529a9f8d")
 		)
@@ -3895,7 +4184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "63mW 1%"
+		(property "Description" "Thick Film Resistors - SMD 1/10 Watt 100Kohms 1%"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -3922,6 +4211,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0402"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ac9097a-b551-4662-837b-a89eaf1e3401")
 		)
@@ -3932,142 +4230,6 @@
 			(project ""
 				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c2a6ae7-0971-43b2-b4a1-61fb08a1cb97")
-		(property "Reference" "R3"
-			(at 120.904 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 115.57 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 115.57 146.558 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e517db2a-92ca-4dfc-919f-14deb6011dcc")
-		)
-		(pin "1"
-			(uuid "18989361-7da3-4ddc-9e9e-1f7038fe5d97")
-		)
-		(instances
-			(project ""
-				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 245.11 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50be1a5d-3de0-4445-ab67-6624f443a836")
-		(property "Reference" "R9"
-			(at 246.634 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 245.11 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 246.888 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 245.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be9249ff-4cec-4ab9-a2ff-f44e81b6cfae")
-		)
-		(pin "1"
-			(uuid "79da839e-0c6c-41d2-b6db-040728b10ad8")
-		)
-		(instances
-			(project "amplifier-brd"
-				(path "/4a199ccc-be1f-4132-9551-a46e36599bcb/f2b7aa34-9911-40d3-beee-632deab3d3cc"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4216,6 +4378,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603"
+			(at 45.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13119bbc-6971-44d7-b06f-499dec4b3fad")
 		)
@@ -4278,6 +4449,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 93.98 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 93.98 135.89 0)
 			(effects
 				(font
@@ -4444,6 +4624,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "1210"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a456808c-9e06-4c4e-963f-2cc8b0ec93c3")
 		)
@@ -4505,7 +4694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "63mW 1%"
+		(property "Description" "Thick Film Resistors - SMD 1/10 Watt 4.02Kohms 1%"
 			(at 119.38 137.16 0)
 			(effects
 				(font
@@ -4524,6 +4713,15 @@
 			)
 		)
 		(property "Mfr #" "CRCW04024K02FKED"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 119.38 137.16 0)
 			(effects
 				(font
@@ -4709,6 +4907,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0805"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "77647c5d-36e5-441e-96df-721db7e5d7cf")
 		)
@@ -4796,6 +5003,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "1210"
+			(at 139.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ffab27c1-bca2-4c02-8c85-be35218c4ebd")
 		)
@@ -4858,6 +5074,33 @@
 			)
 		)
 		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C, SMBus-, and PMBus-Compatible Interface, VSSOP-10"
+			(at 215.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 215.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 215.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "INA233AIDGSR "
 			(at 215.9 106.68 0)
 			(effects
 				(font
@@ -5045,6 +5288,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "0603"
+			(at 57.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5949c066-678e-4276-ab6c-c90490be0ed6")
 		)
@@ -5169,8 +5421,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors 50 V 100 mW 1 % 0402 AEC-Q200"
 			(at 93.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 93.98 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Walsin"
+			(at 93.98 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "MR04X0000FTL "
+			(at 93.98 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)

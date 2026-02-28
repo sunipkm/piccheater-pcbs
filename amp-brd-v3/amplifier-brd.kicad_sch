@@ -5433,6 +5433,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SMD"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3dd91978-ae65-4028-90a8-8974ffe06809")
 		)
@@ -5627,7 +5636,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Board to Board & Mezzanine Connectors HEIGHT REC CONNECTOR"
+			(at 229.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 229.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Amphenol FCI"
+			(at 229.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "10132798-042100LF"
 			(at 229.87 101.6 0)
 			(effects
 				(font
@@ -6210,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "White LEDs 0402 SMD WHITE 5mA 2.4V 66mW"
 			(at 124.46 156.21 0)
 			(effects
 				(font
@@ -6221,6 +6257,33 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 124.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 124.46 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "598-2A00-107F "
+			(at 124.46 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Dialight "
+			(at 124.46 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +6482,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1-Wire Digital Thermometer with Sequence Detect and PIO"
+		(property "Description" "Temperature Sensor Digital, Local -40°C ~ 85°C 11 b 8-uMAX/uSOP"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Analog Devices Inc./Maxim Integrated"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "DS28EA00U+"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 82.55 125.73 0)
 			(effects
 				(font
@@ -6505,7 +6595,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "40 Position Connector Plug, Outer Shroud Contacts Surface Mount Gold"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Amphenol ICC (FCI)"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "10132797-045100LF"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 170.18 101.6 0)
 			(effects
 				(font
@@ -6893,7 +7010,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin Film Resistors HP PrecisionResistor 1E 0.1W 1K0"
+			(at 124.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 124.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "TE Connectivity / Holsworthy "
+			(at 124.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "RP73PF1E1K0BTD "
 			(at 124.46 143.51 0)
 			(effects
 				(font
@@ -7029,7 +7173,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 1/10 Watt 100Kohms 1%"
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Vishay-Dale"
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "CRCW0402100KFKED"
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 107.95 123.19 0)
 			(effects
 				(font
@@ -7103,6 +7274,33 @@
 			)
 		)
 		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 121.92 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "onsemi"
+			(at 121.92 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "BSS84"
+			(at 121.92 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23"
 			(at 121.92 128.27 0)
 			(effects
 				(font

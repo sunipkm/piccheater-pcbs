@@ -48,30 +48,11 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|150700000|93762500|19cc0fa9-a51b-4b3a-bfe5-c6fb537f79bc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|143600000|129910000|205859d0-a761-4367-bf81-60a8a68ced88|a2ed13de-82d9-4cdf-ad13-72f170b268c7",
-          ""
-        ],
-        [
-          "silk_edge_clearance|157600000|129910000|e43eea9b-de02-46cf-8e6d-f370c8cfb31b|13f2cd9a-fbd9-493c-9916-cd75c8f05e94",
-          ""
-        ]
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -121,7 +102,7 @@
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "ignore",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -136,8 +117,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
-        "min_connection": 0.127,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -146,10 +127,10 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.5,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.127,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -199,10 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.4
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -229,12 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -474,11 +447,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "project_footprints"
+    ],
+    "pinned_symbol_libs": [
+      "project_symbols"
+    ]
   },
   "meta": {
-    "filename": "dac-brd.kicad_pro",
+    "filename": "pwr-brd.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -517,7 +494,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "dac-brd.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -638,15 +615,9 @@
   },
   "sheets": [
     [
-      "42f52ef8-91b5-4b39-8096-c8af77b54354",
+      "631a52b6-817a-4de8-aa17-e4680c5f98b8",
       "Root"
     ]
   ],
-  "text_variables": {
-    "BOARD_REV": "B0",
-    "COMPANY": "UMass Lowell / LoCSST",
-    "DESIGNER": "SKM",
-    "PRJ_TITLE": "PICTURE-C/D Heater Controller DAC",
-    "REVIEWER": "JA"
-  }
+  "text_variables": {}
 }

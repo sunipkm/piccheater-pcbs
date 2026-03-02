@@ -1,0 +1,18 @@
+**/*-backups/*.zip
+**/*-info-cache
+**/*.kicad_sch-bak
+**/*.kicad_pcb-bak
+**/*.kicad_prl
+**/target
+**/*.md
+!README.md
+!CHANGELOG.md
+.DS_Store
+# KiCad lock files
+**/~*.lck
+# Gerber files
+*.gbr*
+# All INI files
+*.ini
+# Not ibom.config.ini files
+!ibom.config.ini

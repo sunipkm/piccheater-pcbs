@@ -598,13 +598,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/CONN_D37P33E4GX00LF_AMP.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 1.25 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

@@ -48,11 +48,26 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.15
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|156735300|55730652|d63e846e-216c-4c12-9800-07b29064c548|0c74d593-2474-4ccb-8edf-9711ab58467a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|87164700|55730652|d63e846e-216c-4c12-9800-07b29064c548|fb59c547-ae6a-432f-bf44-4ef77fa1c48e",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -117,8 +132,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.127,
+        "min_connection": 0.127,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -127,10 +142,10 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 0.7,
+        "min_text_thickness": 0.07,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -180,7 +195,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.4,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +226,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -619,5 +643,12 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BOARD_REV": "A0",
+    "COMPANY": "UMass Lowell / LoCSST",
+    "DESIGNER": "SKM",
+    "PRJ_ABBR": "PIC-D HTR INRSH",
+    "PRJ_NAME": "PICTURE-C/D Heater Inrush Control",
+    "REVIEWER": "JA"
+  }
 }
